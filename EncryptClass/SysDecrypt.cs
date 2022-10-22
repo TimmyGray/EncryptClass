@@ -31,6 +31,10 @@ namespace EncryptClass
                 Console.WriteLine(e.ToString());
                 return null;
             }
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
 
 

@@ -2,17 +2,15 @@
 
 namespace EncryptClass
 {
-    public class OwnDecrypt
+    public static class OwnDecrypt
     {
 
-        private long _key = 34543563123;
-
-        public string DecryptString(string encryptpassword)
+        public static string DecryptString(string encryptpassword, long key )
         {
             StringBuilder sb = new StringBuilder();
             foreach (char word in encryptpassword)
             {
-               char secretchar =  (char)(word ^ _key);
+               char secretchar =  (char)(word ^ key);
                sb.Append(secretchar);
             }
             return sb.ToString();

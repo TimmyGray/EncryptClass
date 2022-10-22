@@ -4,6 +4,11 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Authors>Timmy</Authors>
+    <PackageTags>encrypt; decrypt; password; </PackageTags>
+    <PackageReleaseNotes>Add one more catch exception in sysdecrypt, that allows send to user more information about bad decrypt</PackageReleaseNotes>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>$(Assembly version)</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
